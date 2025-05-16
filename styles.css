@@ -3,11 +3,13 @@
 	display : grid;
 	grid-template-columns : repeat(3 , 1fr);
 	grid-template-rows : repeat(2,1);
+	gap : 10px;
 }
-grid-item{
-	width : 400px;
-	height : 100px;
-	background-color : #f2f2f2;
+.grid-item{
+	width : 250px;
+	height : 60px;
+	background-color : rgb(242, 242, 242);
 	border : 1px solid #ccc;
 	text-align : center;
+	
 }
